@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#encabezado{
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    width: 90%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.titulos{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+#contenedor-recientes{
+    display: flex;
+    width: 90%;
+    justify-content: center; 
+    gap: 60px;
+    margin-bottom: 35px;
+}
+
+
+
+.borde-imagen img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.info-reciente {
+    margin-top: 10px; 
+    font-size: 16px; 
+    color: #333; 
+    text-align: center;
+    overflow: hidden; 
+}
+
+#contenedor-recientes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.noticia-link {
+    text-decoration: none;
+    color: black;
+}
+
+.noticia1, .noticia2, .noticia3, .noticia4 {
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.noticia1:hover, .noticia2:hover, .noticia3:hover, .noticia4:hover {
+    background-color: rgb(129, 209, 233);
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+.noticia1, .noticia2, .noticia3, .noticia4 {
+    border: 2px solid #333;   
+    padding: 15px;            
+    width: 220px;             
+    display: flex;            
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;      
+    box-sizing: border-box; 
+    transition: background-color 0.3s;
+    text-align: center; 
+}
+
+.noticia1:hover, .noticia2:hover, .noticia3:hover, .noticia4:hover {
+    background-color: rgb(129, 209, 233); 
+}
+
+.imagen {
+    max-width: 100%;   
+    height: auto; 
+    display: block;
+    margin: 0 auto;    
+}
+
+.noticia1 {
+    background-color: rgb(240, 255, 255); 
+    height: auto;
+}
+
+.noticia2 {
+    background-color: rgb(240, 255, 255);
+    height: auto;
+}
+
+.noticia3 {
+    background-color: rgb(240, 255, 255); 
+    height: auto;
+}
+
+.noticia4 {
+    background-color: rgb(240, 255, 255); 
+    height: auto;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none; 
+}
+
+
+/*CSS NOTICIA DE BITCOIN
+/* Contenedor de imágenes finales */
+#contenedor-imagenes-finales {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.imagen-final {
+    width: 20%;
+    margin: 20px;
+}
+
+.imagen1.izquierda {
+    float: left;
+}
+
+.imagen2.derecha {
+    float: right;
+}
+
+.imagen-final img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* CSS NOTICIA CAMISA FCB
+/* Contenido principal */
+#contenido-principal {
+    width: 100%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contenido-principal h1 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+}
+
+#contenido-principal p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#contenido-principal img {
+    margin: 60px 0;
+}
+
+/* Contenedor de Imágenes Secundarias */
+#contenedor-imagenes-secundarias {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes de manera uniforme */
+    align-items: center;
+    margin: 20px 0;
+}
+
+.imagen-secundaria img {
+    border-radius: 10px;
+    width: 700px; /* Cambiado a px */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-secundaria img {
+    border-radius: 10px;
+    width: 280px; /* Aumenta el tamaño de la imagen */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

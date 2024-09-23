@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#encabezado{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    width: 85%;
+    justify-content: space-between;   
+}
+
+.titulos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right; 
+    flex: 1;
+}
+
+/*Empiezen a decorar la pagina quienes somos de aca en adelante por favor, no usen 
+el archivo principal.css porque van a desordenar el codigo y la estructura de la pagina*/

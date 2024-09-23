@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Información de la Empresa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #533E32; /* Color café */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around; /* Espacio entre cuadros */
+            align-items: center;
+            width: 90%; /* Ancho máximo de los cuadros */
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.8); /* Caja con fondo semitransparente */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 300px; /* Ajustar el ancho de los cuadros */
+            box-shadow: 0 0 20px 10px rgba(197, 201, 250, 0.7); /* Resplandor LED por defecto */
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+            margin: 10px; /* Espaciado entre cuadros */
+        }
+
+        /* Eliminar el resplandor al pasar el mouse */
+        .info-box:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Volver a una sombra suave */
+            transform: scale(1); /* Restaurar tamaño */
+        }
+
+        .icono {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Primer cuadro -->          
+        <div class="info-box">
+            <img src="imagenes/LogoPaginaweb_preview_rev_1.png" alt="Icono de la Empresa" class="icono">
+            <h1><b>Mision</b></h1>
+            <p>Proporcionar información veraz, objetiva y oportuna para mantener a nuestra audiencia bien informada sobre los acontecimientos más relevantes a nivel local, nacional e internacional.</p>
+        </div>
+
+        <!-- Segundo cuadro -->
+         <div class="info-box">
+            <img src="imagenes/LogoPaginaweb_preview_rev_1.png" alt="Icono de la Empresa" class="icono">
+            <h1><b>Chivo Blog</b></h1>
+            <p>Es un portal web que brinda información actual al instante sobre los principales acontecimientos de el salvador y el mundo. Cubriendo temas varios como cultura, deportes, política, etc.</p>
+        </div>
+
+        <!-- Tercer cuadro -->
+        <div class="info-box">
+            <img src="imagenes/LogoPaginaweb_preview_rev_1.png" alt="Icono de la Empresa" class="icono">
+            <h1><b>Vision</b></h1>
+            <p>Convertirse en el principal referente de noticias confiables, imparciales y de alta calidad en el salvador, utilizando la tecnología para estar siempre al alcance de nuestra audiencia.</p>
+        </div>
+    </div>
+</body>
+</html>

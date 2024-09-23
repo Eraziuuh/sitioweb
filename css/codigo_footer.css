@@ -1,0 +1,71 @@
+#color-completo{
+    background-color: #533e32;
+    box-sizing: border-box;
+    justify-content: space-between; 
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+}
+
+#piepagina{
+    
+    margin: 0;
+    height: 150px;
+    align-items: center;
+    color:white;
+    justify-content: space-between; 
+}
+
+.contenedor-pie1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display:flex;
+    width: 100%;
+}
+
+.texto-conocer{
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.texto-subtitulo{
+    font-size: 19px;
+}
+
+.texto-conocer span, .texto-subtitulo span {
+    margin-right: 190px;
+}
+
+.contenedor-pie2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 24px;
+}
+.pie-descripcion{
+    white-space: pre-line;
+    
+    font-size: 14px;
+    
+}
+
+.enlace1{
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.enlace1:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.enlace1:hover{
+    color:#FFD700;
+    text-decoration: none;
+    
+}
+
+.pie-descripcion, .correo-pie, .somos-pie{
+    margin-left: 45px;
+    margin-right: 200px;
+}
